@@ -1,2 +1,2 @@
-# ACTIVIDAD-E2
-Programas realizados en la Actividad C2.
+# PROGRAMAS EN C++ DE CAPURRO DANNA
+Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
