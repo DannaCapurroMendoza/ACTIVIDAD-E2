@@ -3,6 +3,7 @@
 
 
 ## ***INFORMACIÓN DE AUTOR*** 
+![This is image](https://user-images.githubusercontent.com/101121335/169904912-3c96f139-99be-4240-88aa-5e4c2c23fd6a.png)
 
 
 Creado por: Danna Sayenka Capurro Mendoza.
