@@ -2,7 +2,7 @@
 >Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
 
 
-## ***INFORMACIÓN DE AUTOR*** ![This is an image](https://png.pngtree.com/png-vector/20210723/ourlarge/pngtree-illustration-of-a-programmer-business-character-working-around-a-computer-png-image_3615061.jpg)
+## ***INFORMACIÓN DE AUTOR*** ![This is an image](https://docplayer.es/docs-images/76/73836381/images/2-3.jpg)
 
 Creado por: Danna Sayenka Capurro Mendoza.
 
