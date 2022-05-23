@@ -54,6 +54,6 @@ Este programa nos permite ingresar la cantidad de monedas que el usuario desee, 
 - **Funcionalidad:**
 - **Salida:** 
 
-## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS**
+## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS** 👩‍💻
 1. **Clonar repositorio**
 2. **Compilar los programas**
