@@ -17,7 +17,11 @@ Video de Introducción sobre Informática,Compuradoras y Programación: https://
 # **PROGRAMAS C++**
 ## **PROGRAMA PARA COMPARAR 2 NÚMEROS**
 - Descrioción del problema que soluciona:
-- 
-#### Descripción del problema que soluciona:
-#### Funcionalidad:
-#### Salidas:
+- Funcionalidad:
+- Salidas: 
+
+## **PROGRAMA PARA SUMAR VARIOS NÚMEROS**
+- Descripción del problema que soluciona:
+- Funcionalidad:
+- Salidas: 
+
