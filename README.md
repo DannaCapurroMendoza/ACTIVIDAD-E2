@@ -1,4 +1,5 @@
-# PROGRAMAS EN C++ DE CAPURRO DANNA                   ![This is an image](https://user-images.githubusercontent.com/101121335/169904579-bcb7173e-f635-4a2d-bc73-d7bded221274.png)
+# PROGRAMAS EN C++ DE CAPURRO DANNA  ![This is image](https://user-images.githubusercontent.com/101121335/169904912-3c96f139-99be-4240-88aa-5e4c2c23fd6a.png)
+
 >Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
 
 
