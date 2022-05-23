@@ -13,7 +13,7 @@
 - Correo Personal: dannacapurromendoza@gmail.com
 
 - Video de Introducción sobre Informática,Compuradoras y Programación: https://youtu.be/9qTTwykcWeg  
-
+ 
 # **PROGRAMAS** 👩‍💻
 
 ## **1. PROGRAMA PARA COMPARAR 2 NÚMEROS**
