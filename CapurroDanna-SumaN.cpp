@@ -24,7 +24,7 @@ int main ()
 		Dc_s=Dc_s+Dc_x;
 	}while (Dc_c<Dc_n);
 
-	cout<<endl<< " //========================================= ======= " <<endl;
+cout<<endl<< " //========================================= ======= " <<endl;
 cout<< " //==> Nombre del programa: Suma de Varios numeros " <<endl;
 cout<< " //==> Archivo : CapurroDanna-SumaN.cpp " <<endl;
 cout<< " //==>Autor: Danna Capurro " <<endl;
