@@ -16,7 +16,7 @@
 
 # **PROGRAMAS** 👩‍💻
 
-## ** 1. PROGRAMA PARA COMPARAR 2 NÚMEROS**
+## **1. PROGRAMA PARA COMPARAR 2 NÚMEROS**
 - **Descrioción del problema que soluciona:**
 El programa permite la comparación de dos numeros ingresados de forma manual por el usuario, y que permite determinar cuando estos numeros son iguales o cuando uno de ellos es mayor al otro.
 
