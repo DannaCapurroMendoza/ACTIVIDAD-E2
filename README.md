@@ -1,4 +1,4 @@
-# PROGRAMAS EN C++ DE CAPURRO DANNA  ![This is image](https://user-images.githubusercontent.com/101121335/169904912-3c96f139-99be-4240-88aa-5e4c2c23fd6a.png)
+# PROGRAMAS EN C++ DE CAPURRO DANNA 
 
 >Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
 
@@ -16,3 +16,6 @@ Video de Introducción sobre Informática,Compuradoras y Programación: https://
 
 # **PROGRAMAS C++**
 ## **PROGRAMA PARA COMPARAR 2 NÚMEROS**
+## - Descripción del problema que soluciona:
+## - Funcionalidad:
+## - Salidas:
