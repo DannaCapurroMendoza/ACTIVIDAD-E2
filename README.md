@@ -6,13 +6,13 @@
 
 
 ## ***INFORMACIÓN DE AUTOR*** 👩‍🦱                                                      
-Creado por: Danna Sayenka Capurro Mendoza.                               
+- Creado por: Danna Sayenka Capurro Mendoza.                               
 
-Correo institucional: danna.capurro.mendoza@utelvt.edu.ec
+- Correo institucional: danna.capurro.mendoza@utelvt.edu.ec
 
-Correo Personal: dannacapurromendoza@gmail.com
+- Correo Personal: dannacapurromendoza@gmail.com
 
-Video de Introducción sobre Informática,Compuradoras y Programación: https://youtu.be/9qTTwykcWeg  
+- Video de Introducción sobre Informática,Compuradoras y Programación: https://youtu.be/9qTTwykcWeg  
 
 # **PROGRAMAS** 👩‍💻
 
