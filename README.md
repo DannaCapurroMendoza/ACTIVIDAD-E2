@@ -3,4 +3,4 @@ Programas realizados en la Actividad C2. Descripción y funcionamiento de cada p
 
 
 
-INFORMACIÓN DE AUTOR
+#INFORMACIÓN DE AUTOR
