@@ -1,9 +1,9 @@
-# PROGRAMAS EN C++ DE CAPURRO DANNA 
+# PROGRAMAS EN C++ DE CAPURRO DANNA                   ![This is an image](https://user-images.githubusercontent.com/101121335/169904579-bcb7173e-f635-4a2d-bc73-d7bded221274.png)
 >Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
 
 
-## ***INFORMACIÓN DE AUTOR*** ![This is an image](https://user-images.githubusercontent.com/101121335/169904579-bcb7173e-f635-4a2d-bc73-d7bded221274.png)
-)
+## ***INFORMACIÓN DE AUTOR*** 
+
 
 Creado por: Danna Sayenka Capurro Mendoza.
 
