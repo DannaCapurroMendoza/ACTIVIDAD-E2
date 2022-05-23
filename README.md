@@ -14,8 +14,7 @@ Correo Personal: dannacapurromendoza@gmail.com
 
 Video de Introducción sobre Informática,Compuradoras y Programación: https://youtu.be/9qTTwykcWeg  
 
-# **PROGRAMAS** 👩‍💻:
-:
+# **PROGRAMAS** 👩‍💻
 
 ## **PROGRAMA PARA COMPARAR 2 NÚMEROS**
 - **Descrioción del problema que soluciona:**
