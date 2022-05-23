@@ -17,29 +17,29 @@ Video de Introducción sobre Informática,Compuradoras y Programación: https://
 # **PROGRAMAS**
 
 ## **PROGRAMA PARA COMPARAR 2 NÚMEROS**
-- Descrioción del problema que soluciona:
-- Funcionalidad:
-- Salidas: 
+- **Descrioción del problema que soluciona:**
+- **Funcionalidad:**
+- **Salidas:** 
 
 ## **PROGRAMA PARA SUMAR VARIOS NÚMEROS**
-- Descripción del problema que soluciona:
-- Funcionalidad:
-- Salidas: 
+- **Descripción del problema que soluciona:**
+- **Funcionalidad:**
+- **Salidas:**
 
 ## **PROGRAMA PARA CALCULAR EL PUNTO DE VENTA**
-- Descripción del problema que soluciona:
-- Funcionalidad:
-- Salidas:
+- **Descripción del problema que soluciona:**
+- **Funcionalidad:**
+- **Salidas:**
 
 ## **PROGRAMA PARA SABER LA EDAD DE UNA PERSONA**
-- Descripción del problema que soluciona:
-- Funcionlidad:
-- Salidas:
+- **Descripción del problema que soluciona:**
+- **Funcionlidad:**
+- **Salidas:**
 
 ## **PROGRAMA CLASIFICADOR Y CONTADOR DE MONEDAS**
-- Descripción del problema que soluciona:
-- Funcionalidad:
-- Salida: 
+- **Descripción del problema que soluciona:**
+- **Funcionalidad:**
+- **Salida:** 
 
 ## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS**
 1. **Clonar repositorio**
