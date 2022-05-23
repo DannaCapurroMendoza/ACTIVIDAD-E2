@@ -2,9 +2,10 @@
 
 >Programas realizados en la Actividad C2. Descripción y funcionamiento de cada progama c++.
 
+![This is image](https://user-images.githubusercontent.com/101121335/169905442-4f52be26-5fe8-4503-ae45-aec1e450e4c1.png)
+
 
 ## ***INFORMACIÓN DE AUTOR***                                                       
-                                                 ![This is image](https://user-images.githubusercontent.com/101121335/169905205-0819381e-f70d-4a3a-a74b-3c4bcf255c83.png)
 Creado por: Danna Sayenka Capurro Mendoza.                               
 
 Correo institucional: danna.capurro.mendoza@utelvt.edu.ec
