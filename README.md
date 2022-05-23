@@ -42,5 +42,5 @@ Video de Introducción sobre Informática,Compuradoras y Programación: https://
 - Salida: 
 
 ## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS**
-1. Clonar repositorio
-2. Compilar los programas
+1. **Clonar repositorio**
+2. **Compilar los programas**
