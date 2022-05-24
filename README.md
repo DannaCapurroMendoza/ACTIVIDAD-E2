@@ -78,5 +78,5 @@ A continuación se muestra un ejemplo de como se compila:
 
 _<**¡No puedo decir otra palabra más que “gracias por leer y llenarte de información importante en el mundo de la programación”!**>_
 
-</**Capurro Mendoza Danna Sayenka**>
+**Capurro Mendoza Danna Sayenka** </sup>
 
