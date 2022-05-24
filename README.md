@@ -74,4 +74,9 @@ Al momento que desees compilar y ejecutar o correr los archivos `.cpp`se debe us
 `nombre-del-programa.cpp -o nombre-del-programa`.
 
 A continuación se muestra un ejemplo de como se compila: 
-`g++ CapurroDanna-SumaN.cpp -o CapurroDanna-SumaN`.
+`g++ Capurro-Danna-SumaN.cpp -o Capurro-Danna-SumaN`.
+
+**<¡No puedo decir otra palabra más que “gracias por leer y llenarte de información importante en el mundo de la programación”!>**
+
+**</Capurro Mendoza Danna Sayenka>**
+
