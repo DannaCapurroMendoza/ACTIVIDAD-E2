@@ -22,9 +22,7 @@ El programa permite la comparación de dos numeros ingresados de forma manual po
 
 - **Funcionalidad:**
 En este programa usaremos una variable de tipo decimal conocida como: (`float`).
-
 Este programa nos permite ingresar dos cantidades que deseamos comparar de las cuales van a estar almacenadas en `Dc_valor1` y `Dc_valor2` respectivamente.
-
 Una vez que esten ingresadas las variables, utilizaremos la función `if` que nos sirve para poder hacer una comparación lógica entre las cantidades o valores ingresados.
 
 - **Salidas:** 
