@@ -31,8 +31,8 @@ Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un
 1. Ambas cantidades son iguales (en caso de que los numeros ingresados sean iguales).
 2. El valor Dc_valor1 es mayor que Dc_valor2 (en caso de que el primer valor ingresado sea mayor al segundo).
 3. El numero Dc_valor2 es mayor que Dc_valor1 (en caso de que el segundo valor ingresado sea mayor al primero).
-
-![image](https://user-images.githubusercontent.com/101121335/170129806-5d9eadee-7995-4013-96e9-e4cbab4930aa.png)
+>**EJERCICIO**
+> ![image](https://user-images.githubusercontent.com/101121335/170129806-5d9eadee-7995-4013-96e9-e4cbab4930aa.png)
 
 
 ## **2. PROGRAMA PARA SUMAR VARIOS NÚMEROS**
