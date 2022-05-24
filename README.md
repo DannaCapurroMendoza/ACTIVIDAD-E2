@@ -68,11 +68,40 @@ Una vez realizado todo este proceso, el programa va a imprimir el valor del cont
 Este programa nos permite ingresar el valor de compras que el usuario desee, mediante el cual se calcula el valor del IVA de la compra, y esta aplica un descuento a elección del usuario. Para finalmente: mostrar el valor bruto de la compra, el valor del IVA, su valor del descuento, y el precio final a que se debe pagar.
 
 - **Funcionalidad:**
+Para este programa, vamos a usar variables de tipo entero `(int)` y variables de tipo decimal `(float)`.
 
+De igual manera, vamos a requerir del uso de un contador `(Dc_C)` y el uso de un acumulador `(Dc_A)`
+
+El contador va a ir incrementando de uno en uno, en función del número de compras que el usuario desee ingresar `(Dc_B)`.
+
+El acumulador va a ir almacenando la suma de los valores de cada unas de las compras que ingrese el usuario `(Dc_X)`.
+
+Para complementar este proceso, vamos a utilizar una estructura repetitiva `do-while`, que servirá para que el proceso anteriormente descrito, se repita mientras se cumpla una condición `(Dc_C<Dc_B)`.
+
+Una vez que hemos ingresado, sumado y almencenado el valor bruto de las compras `(Dc_A)`, tenemos que aplicarle un descuento. Para ello, le pedimos al usuario que ingrese el descuento que desee aplicar `(Dc_X)`.
+
+Posterior a esto, se realizan los siguientes procesos:
+
+`Dc_Vdsc=(Dc_A*Dc_X)/100`;(la variable `Dc_Vdsc` va a almacenar el resultado del descuento que se le aplique a la compra).
+
+`Dc_V1=Dc_A-Dc_Vdsc`;(la variable `Dc_V1` va a almacenar el resultado de la diferencia entre el valor acumulado de las compras, y el valor resultante del descuento).
+
+`Dc_Ivav=Dc_V1*0.12`;(la variable `Dc_Ivav` va a almacenar el calculo del IVA de la variable anterior `Dc_V1`).
+
+`Dc_Fn=(Dc_A-Dc_Vdsc)+Dc_Ivav`;(la variable `Dc_Fn` va a almacenar el resultado final, en el cual se va a aplicar el descuento, y añadir el IVA).
 
 
 - **Salidas:**
 
+Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes valores:
+
+`Dc_A`(Variable que representa el Valor Bruto de las compras).
+
+`Dc_Vdsc`(Variable que representa el Valor de la compra, aplicandole el Descuento).
+
+`Dc_Ivav`(Variable que representa el Valor de la compra, añadiendole el IVA).
+
+`Dc_Fn` (Variable que representa el Valor Final).
 
 >**EJERCICIO**
 >
