@@ -58,6 +58,6 @@ Este programa nos permite ingresar la cantidad de monedas que el usuario desee, 
 Con simplemente dos pasos podemos descargar el repositorio en el cual podemos encontrar dichos programas descritos y explicados en este post. Para saber como descargar e instalar los programas se tiene que realizar los 2 siguientes procesos que a continuación seran explicados:
 1. **Clonar repositorio**
 **Acerca de clonar un repositorio:**  Puedes clonar un repositorio desde GitHub.com hacia tu computadora local para que sea más fácil fusionar conflictos, agregar o eliminar archivos, y subir confirmaciones más grandes. Cuando clonas un repositorio, lo copias desde GitHub.com hacia tu máquina local.
-**Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando [git clone] seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
+**Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando `git clone` seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
 
 3. **Compilar los programas**
