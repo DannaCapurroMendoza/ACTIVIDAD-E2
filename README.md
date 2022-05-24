@@ -65,8 +65,10 @@ Luego de haber clonado en tu equipo, se procede a usar el comando `git pull` par
 De tal manera que usando el comando `ls` de termux se puede verificar que se encuentran todos los archivos que acabas de descargar.
 
 Ahora bien en caso de que necesites realizar y subir cambios en los programas hay qe tener en cuenta que para esto debemos usar los comandos `git status`( que sirve para ver los cambios a los que se somete), `git add`(para añadir los cambios a la nube), `git commit`  (para comentar los cambios) y `git push` (para subir a github todos los cambios que se realizaron).
+
 2. **Compilar los programas**
-Al momento que desees compilar y ejecutar o correr los archivos `.cpp`se debe usar el comando `g++` añadiendo el `nombre-del-programa.cpp -o nombre-del-programa`.
+Al momento que desees compilar y ejecutar o correr los archivos `.cpp`se debe usar el comando `g++` añadiendo el 
+`nombre-del-programa.cpp -o nombre-del-programa`.
 
 A continuación se muestra un ejemplo de como se compila: 
 `g++ CapurroDanna-SumaN.cpp -o CapurroDanna-SumaN`.
