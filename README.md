@@ -112,9 +112,53 @@ Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes va
 - **Descripción del problema que soluciona:**
 Este programa nos permite calcular la edad exacta de una persona, mediante el ingreso de su fecha de nacimiento del usuario ene el formato de (dd/mm/yy) y el ingreso de la fecha actual en el formato de "DIA - MES - AÑO" (dd/mm/yy).
 
-
 - **Funcionlidad:**
+
+En este programa, solo vamos a usar variables de tipo entero `(int)`.
+
+Para iniciar el programa, tenemos que ingresar el valor de las variables que van a representar la fecha actual, bajo el formato día/mes/año `(Dc_dd, Dc_mm y Dc_aa` respectivamente).
+
+A continuación, se tiene que ingresar el valor de las variables que van a representar la fecha de nacimiento del usuario, bajo el formato día/mes/año `(Dc_dd1, Dc_mm1, Dc_aa1` respectivamente).
+
+Una vez que se ingresan esas variables, el programa va a realizar dos operacions lógicas, usando la función `if`; la primera de ellas, va a estar compuesta por los siguientes procesos:
+
+En caso de que el dia actual ingresado, sea menor al dia de nacimiento del usuario `(Dc_dd<Dc_dd1)`:
+
+`Dc_dd=Dc_dd+30`; (Se suman 30 dias al día actual ingresado por el usuario).
+
+`Dc_mm=Dc_mm-1`; (Se resta un mes a la cantidad de meses ingresados por el usuario).
+
+`Dc_da=Dc_dd-Dc_dd1` (Usamos la variable `Dc_da`, que va a almacenar la diferencia entre el día actual y el día de nacimiento).
+
+Si no se cumple esa condición `(Dc_dd<Dc_dd1)`, entonces simplemente se produce la diferencia entre el día actual, y el día de nacimiento, almancenado en la variable `Dc_da (Dc_da=Dc_dd-Dc_dd1)`.
+
+En caso de que el mes actual ingresado, sea menor al mes de nacimiento del usuario `(Dc_mm<Dc_mm1)`:
+
+`Dc_mm=Dc_mm+12`; (Se suman 12 meses a la cantidad de meses actuales ingresados por el usuario).
+
+`Dc_aa=Dc_aa-1`; (Se quita un año a la cantidad de años actuales ingresados).
+
+`Dc_ma=Dc_mm-Dc_mm1`; (Usamos la variable `Dc_ma`, que va a almacenar la diferencia entre el mes actual y el mes de nacimiento).
+
+Si no se cumple esta condición `(Dc_mm<Dc_mm1)`, entonces simplemente se produce la diferencia entre el mes actual, y el mes de nacimiento, almacenado en la variable `Dc_ma (Dc_ma=Dc_mm-Dc_mm1;)`.
+
+Una vez culminados esos procesos, en la variable `Dc_ya`, vamos a almacenar la diferencia entre el año actual ingresado, y el año de nacimiento del usuario `(Dc_ya=Dc_aa-Dc_aa1)`.
+
 - **Salidas:**
+
+Una vez que hemos realizado todos los procesos descritos, el programa prodece a imprimir los siguientes resultados:
+
+`Dc_ya`: Variable que almacena la diferencia entre el año actual y el año de nacimiento.
+
+`Dc_ma`: Varible que almecena la diferencia entre el mes actual y el mes de nacimiento.
+
+`Dc_da`: Variable que almacea la diferencia entre el día actual y el día de nacimiento.
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170143844-19f5827b-af02-4a73-8e03-8c5a8e7125c6.png)
+
+
 
 ## **5. PROGRAMA CLASIFICADOR Y CONTADOR DE MONEDAS**
 - **Descripción del problema que soluciona:**
