@@ -22,10 +22,10 @@ int main ()
 	cout<< " Ambas valores son iguales " <<endl;
 	}
 	 if(Dc_valor1>Dc_valor2) {
-	cout<< " El valor " <<Dc_valor2<< " es mayor que " <<Dc_valor1<<endl;
+	cout<< " El valor " <<Dc_valor1<< " es mayor que " <<Dc_valor2<<endl;
 	       }
 	else{
-		cout<< " El valor " <<Dc_valor1<< " es menor que   " <<Dc_valor2<<endl;
+		cout<< " El valor " <<Dc_valor2<< " es mayor que   " <<Dc_valor1<<endl;
 	}
 	cout<<endl<< " //========================================= ======== " <<endl;
 cout<< " //==> Nombre del programa: Comparar dos numeros " <<endl;
