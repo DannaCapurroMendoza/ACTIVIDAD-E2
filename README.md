@@ -76,7 +76,7 @@ Al momento que desees compilar y ejecutar o correr los archivos `.cpp`se debe us
 A continuación se muestra un ejemplo de como se compila: 
 `g++ Capurro-Danna-SumaN.cpp -o Capurro-Danna-SumaN`.
 
-_<**¡No puedo decir otra palabra más que “gracias por leer y llenarte de información importante en el mundo de la programación”!**>_
+_***¡No puedo decir otra palabra más que “gracias por leer y llenarte de información importante en el mundo de la programación”!***_
 
-**Capurro Mendoza Danna Sayenka** </sup>
+*****Capurro Mendoza Danna Sayenka***** 
 
