@@ -42,18 +42,19 @@ Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un
 Este programa nos permite sumar una cierta o diversa cantidad de numeros que el usuario desee ingresar, añadiendolos todos de forma manual.
 
 - **Funcionalidad:**
-En este programa vamos a usar dos tipos de datos; los enteros (int), y los decimales (float).
+En este programa vamos a usar dos tipos de datos que son: los enteros (`int`), y los decimales (`float`).
 
-Vamos a requerir, de igual manera, el uso de un contador (jm_i que va a estar declarado como un entero) y el uso de un acumulador (jm_s que va a estar declarado como decimal).
+Vamos a utilizar, de igual manera, el uso de un contador (`Dc_c que va a estar declarado como un entero`) y el uso de un acumulador (`Dc_s que va a estar declarado como decimal`).
 
-El contador va a ir incrementando de uno en uno, en función del numero que ingrese el usuario (jm_n).
+El contador se va a ir incrementando de uno en uno, este en función del numero que ingrese el usuario (`Dc_n`).
 
-El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario (jm_x).
+El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario (`Dc_x`).
 
-Para complementar este proceso, vamos a usar una estructura repetitiva do-while, que servirá para que el proceso anteiormente descrito, se repita mientras se cumpla una condición (jm_i<jm_n).
+Y para complementar todo este proceso, vamos a usar una estructura repetitiva `do-while`, que esta nos servirá para que el proceso anteriormente descrito, proceda a repetirce mientras se cumpla una condición (`Dc_c<Dc_n`).
 
 - **Salidas:**
-Una vez realizado todo el proceso, el programa va a imprimir el valor del contador (jm_n) y el valor del acumulador (jm_s).
+Una vez realizado todo este proceso, el programa va a imprimir el valor del contador (`Dc_n`) y el valor del acumulador (`Dc_s`).
+
 
 >**EJERCICIO**
 >
