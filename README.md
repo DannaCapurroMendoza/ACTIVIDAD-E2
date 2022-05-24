@@ -21,7 +21,7 @@
 El programa permite la comparación de dos numeros ingresados de forma manual por el usuario, y que permite determinar cuando estos numeros son iguales o cuando uno de ellos es mayor al otro.
 
 - **Funcionalidad:**
-En este programa usaremos una variable de tipo decimal conocida como: (`float`).
+En este programa usaremos una variable de tipo decimal conocida como: `(float)`.
 Este programa nos permite ingresar dos cantidades que deseamos comparar de las cuales van a estar almacenadas en `Dc_valor1` y `Dc_valor2` respectivamente.
 Una vez que esten ingresadas las variables, utilizaremos la función `if` que nos sirve para poder hacer una comparación lógica entre las cantidades o valores ingresados.
 
@@ -43,18 +43,18 @@ Este programa nos permite sumar una cierta o diversa cantidad de numeros que el 
 
 - **Funcionalidad:** 
 
-En este programa vamos a usar dos tipos de datos que son: los enteros (`int`), y los decimales (`float`). 
+En este programa vamos a usar dos tipos de datos que son: los enteros `(int)`, y los decimales `(float)`. 
 
-Vamos a utilizar, de igual manera, el uso de un contador (`Dc_c que va a estar declarado como un entero`) y el uso de un acumulador (`Dc_s que va a estar declarado como decimal`).
+Vamos a utilizar, de igual manera, el uso de un contador `(Dc_c que va a estar declarado como un entero)` y el uso de un acumulador `(Dc_s que va a estar declarado como decimal)`.
 
-El contador se va a ir incrementando de uno en uno, este en función del numero que ingrese el usuario (`Dc_n`).
+El contador se va a ir incrementando de uno en uno, este en función del numero que ingrese el usuario `(Dc_n)`.
 
-El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario (`Dc_x`).
+El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario `(Dc_x)`.
 
-Y para complementar todo este proceso, vamos a usar una estructura repetitiva `do-while`, que esta nos servirá para que el proceso anteriormente descrito, proceda a repetirce mientras se cumpla una condición (`Dc_c<Dc_n`).
+Y para complementar todo este proceso, vamos a usar una estructura repetitiva `do-while`, que esta nos servirá para que el proceso anteriormente descrito, proceda a repetirce mientras se cumpla una condición `(Dc_c<Dc_n)`.
 
 - **Salidas:**
-Una vez realizado todo este proceso, el programa va a imprimir el valor del contador (`Dc_n`) y el valor del acumulador (`Dc_s`).
+Una vez realizado todo este proceso, el programa va a imprimir el valor del contador `(Dc_n)` y el valor del acumulador `(Dc_s)`.
 
 
 >**EJERCICIO**
@@ -110,39 +110,39 @@ Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes va
 
 ## **4. PROGRAMA PARA SABER LA EDAD DE UNA PERSONA**
 - **Descripción del problema que soluciona:**
-Este programa nos permite calcular la edad exacta de una persona, mediante el ingreso de su fecha de nacimiento del usuario ene el formato de (dd/mm/yy) y el ingreso de la fecha actual en el formato de "DIA - MES - AÑO" (dd/mm/yy).
+Este programa nos permite calcular la edad exacta de una persona, mediante el ingreso de su fecha de nacimiento del usuario ene el formato de `(dd/mm/yy)` y el ingreso de la fecha actual en el formato de "DIA - MES - AÑO" `(dd/mm/yy)`.
 
 - **Funcionlidad:**
 
-En este programa, solo vamos a usar variables de tipo entero `(int)`.
+En el desarrollo de este programa, solo utilizaremos variables de tipo entero `(int)`.
 
-Para iniciar el programa, tenemos que ingresar el valor de las variables que van a representar la fecha actual, bajo el formato día/mes/año `(Dc_dd, Dc_mm y Dc_aa` respectivamente).
+Para iniciar este programa, ingresaremos el valor de las variables que van a representar la fecha actual, bajo el formato día/mes/año `(Dc_dd, Dc_mm y Dc_aa respectivamente)`.
 
-A continuación, se tiene que ingresar el valor de las variables que van a representar la fecha de nacimiento del usuario, bajo el formato día/mes/año `(Dc_dd1, Dc_mm1, Dc_aa1` respectivamente).
+Procedente a esto, ingresaremos  el valor de las variables que van a representar la fecha de nacimiento del usuario, bajo el formato día/mes/año `(Dc_dd1, Dc_mm1, Dc_aa1 respectivamente)`.
 
-Una vez que se ingresan esas variables, el programa va a realizar dos operacions lógicas, usando la función `if`; la primera de ellas, va a estar compuesta por los siguientes procesos:
+Una vez que hemos ingresado esas variables, el programa procede a realizar dos operacions lógicas, mediante el uso de la función `if`; la cual la primera de ellas, va a estar compuesta por los diversos procesos:
 
 En caso de que el dia actual ingresado, sea menor al dia de nacimiento del usuario `(Dc_dd<Dc_dd1)`:
 
-`Dc_dd=Dc_dd+30`; (Se suman 30 dias al día actual ingresado por el usuario).
+`Dc_dd=Dc_dd+30`; Se sumaran 30 dias al día actual ingresado por el usuario.
 
-`Dc_mm=Dc_mm-1`; (Se resta un mes a la cantidad de meses ingresados por el usuario).
+`Dc_mm=Dc_mm-1`; Se procede a restar un mes a la cantidad de meses que han sido ingresados por el usuario.
 
-`Dc_da=Dc_dd-Dc_dd1` (Usamos la variable `Dc_da`, que va a almacenar la diferencia entre el día actual y el día de nacimiento).
+`Dc_da=Dc_dd-Dc_dd1` Utilizamos la variable `Dc_da`, la cual va a almacenar la diferencia entre el día actual y el día de nacimiento.
 
-Si no se cumple esa condición `(Dc_dd<Dc_dd1)`, entonces simplemente se produce la diferencia entre el día actual, y el día de nacimiento, almancenado en la variable `Dc_da (Dc_da=Dc_dd-Dc_dd1)`.
+En caso de que si no se cumple esa condición `(Dc_dd<Dc_dd1)`, entonces simplemente se produce la diferencia entre el día actual, y el día de nacimiento, almancenado en la variable `Dc_da (Dc_da=Dc_dd-Dc_dd1)`.
 
-En caso de que el mes actual ingresado, sea menor al mes de nacimiento del usuario `(Dc_mm<Dc_mm1)`:
+En caso procedente de que el mes actual ingresado sea menor al mes de nacimiento del usuario `(Dc_mm<Dc_mm1)`:
 
-`Dc_mm=Dc_mm+12`; (Se suman 12 meses a la cantidad de meses actuales ingresados por el usuario).
+`Dc_mm=Dc_mm+12`; Se Procede a la suma de 12 meses a la cantidad de meses actuales ingresados por el usuario.
 
-`Dc_aa=Dc_aa-1`; (Se quita un año a la cantidad de años actuales ingresados).
+`Dc_aa=Dc_aa-1`; Se elimina un año a la cantidad de años actuales que han sido ingresados.
 
-`Dc_ma=Dc_mm-Dc_mm1`; (Usamos la variable `Dc_ma`, que va a almacenar la diferencia entre el mes actual y el mes de nacimiento).
+`Dc_ma=Dc_mm-Dc_mm1`; Utilizamos la variable `Dc_ma`, la cuál va a almacenar la diferencia entre el mes actual y el mes de nacimiento.
 
-Si no se cumple esta condición `(Dc_mm<Dc_mm1)`, entonces simplemente se produce la diferencia entre el mes actual, y el mes de nacimiento, almacenado en la variable `Dc_ma (Dc_ma=Dc_mm-Dc_mm1;)`.
+En caso de que si no se cumple esta condición `(Dc_mm<Dc_mm1)`, entonces simplemente se produce la diferencia entre el mes actual, y el mes de nacimiento, almacenado en la variable `Dc_ma (Dc_ma=Dc_mm-Dc_mm1;)`.
 
-Una vez culminados esos procesos, en la variable `Dc_ya`, vamos a almacenar la diferencia entre el año actual ingresado, y el año de nacimiento del usuario `(Dc_ya=Dc_aa-Dc_aa1)`.
+Una vez que hemos culminado estos procesos, en la variable `Dc_ya`, vamos a proceder a almacenar la diferencia entre el año actual ingresado, y el año de nacimiento del usuario `(Dc_ya=Dc_aa-Dc_aa1)`.
 
 - **Salidas:**
 
