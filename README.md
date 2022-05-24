@@ -42,9 +42,23 @@ Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un
 Este programa nos permite sumar una cierta o diversa cantidad de numeros que el usuario desee ingresar, añadiendolos todos de forma manual.
 
 - **Funcionalidad:**
+En este programa vamos a usar dos tipos de datos; los enteros (int), y los decimales (float).
 
+Vamos a requerir, de igual manera, el uso de un contador (jm_i que va a estar declarado como un entero) y el uso de un acumulador (jm_s que va a estar declarado como decimal).
+
+El contador va a ir incrementando de uno en uno, en función del numero que ingrese el usuario (jm_n).
+
+El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario (jm_x).
+
+Para complementar este proceso, vamos a usar una estructura repetitiva do-while, que servirá para que el proceso anteiormente descrito, se repita mientras se cumpla una condición (jm_i<jm_n).
 
 - **Salidas:**
+Una vez realizado todo el proceso, el programa va a imprimir el valor del contador (jm_n) y el valor del acumulador (jm_s).
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170132059-97ec9cc1-4ba5-494e-8fe0-c2d790ab88c2.png)
+
 
 
 ## **3. PROGRAMA PARA CALCULAR EL PUNTO DE VENTA**
