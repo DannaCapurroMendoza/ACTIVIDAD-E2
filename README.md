@@ -76,8 +76,7 @@ Este programa nos permite ingresar el valor de compras que el usuario desee, med
 
 >**EJERCICIO**
 >
->![image](https://user-images.githubusercontent.com/101121335/170134503-edfbcc12-9f78-4fcc-a80f-aa7edbd7b3f7.png)
-
+![image](https://user-images.githubusercontent.com/101121335/170134883-5b174c0a-48da-4ddd-84ad-41d45ee023bf.png)
 
 ## **4. PROGRAMA PARA SABER LA EDAD DE UNA PERSONA**
 - **Descripción del problema que soluciona:**
