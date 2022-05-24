@@ -68,6 +68,7 @@ Una vez realizado todo este proceso, el programa va a imprimir el valor del cont
 Este programa nos permite ingresar el valor de compras que el usuario desee, mediante el cual se calcula el valor del IVA de la compra, y esta aplica un descuento a elección del usuario. Para finalmente: mostrar el valor bruto de la compra, el valor del IVA, su valor del descuento, y el precio final a que se debe pagar.
 
 - **Funcionalidad:**
+
 Para este programa, vamos a usar variables de tipo entero `(int)` y variables de tipo decimal `(float)`.
 
 De igual manera, vamos a requerir del uso de un contador `(Dc_C)` y el uso de un acumulador `(Dc_A)`
