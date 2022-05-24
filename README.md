@@ -41,7 +41,8 @@ Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un
 - **Descripción del problema que soluciona:**
 Este programa nos permite sumar una cierta o diversa cantidad de numeros que el usuario desee ingresar, añadiendolos todos de forma manual.
 
-- **Funcionalidad:** En este programa vamos a usar dos tipos de datos que son: los enteros (`int`), y los decimales (`float`). 
+- **Funcionalidad:** 
+En este programa vamos a usar dos tipos de datos que son: los enteros (`int`), y los decimales (`float`). 
 
 Vamos a utilizar, de igual manera, el uso de un contador (`Dc_c que va a estar declarado como un entero`) y el uso de un acumulador (`Dc_s que va a estar declarado como decimal`).
 
