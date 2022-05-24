@@ -68,7 +68,16 @@ Una vez realizado todo este proceso, el programa va a imprimir el valor del cont
 Este programa nos permite ingresar el valor de compras que el usuario desee, mediante el cual se calcula el valor del IVA de la compra, y esta aplica un descuento a elección del usuario. Para finalmente: mostrar el valor bruto de la compra, el valor del IVA, su valor del descuento, y el precio final a que se debe pagar.
 
 - **Funcionalidad:**
+
+
+
 - **Salidas:**
+
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170134503-edfbcc12-9f78-4fcc-a80f-aa7edbd7b3f7.png)
+
 
 ## **4. PROGRAMA PARA SABER LA EDAD DE UNA PERSONA**
 - **Descripción del problema que soluciona:**
