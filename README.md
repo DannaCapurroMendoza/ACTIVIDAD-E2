@@ -33,6 +33,7 @@ Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un
 3. El numero Dc_valor2 es mayor que Dc_valor1 (en caso de que el segundo valor ingresado sea mayor al primero).
 
 >**EJERCICIO**
+>
 > ![image](https://user-images.githubusercontent.com/101121335/170129806-5d9eadee-7995-4013-96e9-e4cbab4930aa.png)
 
 
