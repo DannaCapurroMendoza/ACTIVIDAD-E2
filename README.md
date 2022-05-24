@@ -21,15 +21,29 @@
 El programa permite la comparación de dos numeros ingresados de forma manual por el usuario, y que permite determinar cuando estos numeros son iguales o cuando uno de ellos es mayor al otro.
 
 - **Funcionalidad:**
+En este programa usaremos una variable de tipo decimal conocida como: (`float´).
+Este programa nos permite ingresar dos cantidades que deseamos comparar de las cuales van a estar almacenadas en Dc_valor1 y Dc_valor2 respectivamente.
+Una vez que esten ingresadas las variables, utilizaremos la función `if´ que nos sirve para poder hacer una comparación lógica entre las cantidades o valores ingresados.
 
 - **Salidas:** 
+Una vez que hemos realizado el proceso lógico, se pueden proceder a imprimir un total de tres posibilidades:
+
+1. Ambas cantidades son iguales (en caso de que los numeros ingresados sean iguales).
+2. El valor Dc_valor1 es mayor que Dc_valor2 (en caso de que el primer valor ingresado sea mayor al segundo).
+3. El numero Dc_valor2 es mayor que Dc_valor1 (en caso de que el segundo valor ingresado sea mayor al primero).
+
+![image](https://user-images.githubusercontent.com/101121335/170129806-5d9eadee-7995-4013-96e9-e4cbab4930aa.png)
+
 
 ## **2. PROGRAMA PARA SUMAR VARIOS NÚMEROS**
 - **Descripción del problema que soluciona:**
 Este programa nos permite sumar una cierta o diversa cantidad de numeros que el usuario desee ingresar, añadiendolos todos de forma manual.
 
 - **Funcionalidad:**
+
+
 - **Salidas:**
+
 
 ## **3. PROGRAMA PARA CALCULAR EL PUNTO DE VENTA**
 - **Descripción del problema que soluciona:**
