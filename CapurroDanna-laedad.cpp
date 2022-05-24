@@ -12,7 +12,7 @@
 using namespace std ;
 int main  ()
 {
-	int Dc_dd, Dc_mm, Dc_aa, Dc_dd1, Dc_mm1, Dc_aa1, Dc_da, Dc_ma, Dc_ya, flag1;
+	int Dc_dd, Dc_mm, Dc_aa, Dc_dd1, Dc_mm1, Dc_aa1, Dc_da, Dc_ma, Dc_ya;
 	cout<<"\n //==> Programa para saber la edad exacta de una persona <==//\n "<<endl;
 	cout<<"INGRESE LA FECHA ACTUAL: dd/mm/yy: "<<endl;
 	cin>>Dc_dd>>Dc_mm>>Dc_aa;
