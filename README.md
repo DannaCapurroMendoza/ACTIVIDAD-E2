@@ -96,13 +96,13 @@ Posterior a esto, realizaremos los siguientes procesos:
 
 Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes valores:
 
-`Dc_A`: Variable que representa el Valor Bruto de las compras.
+- `Dc_A`: Variable que representa el Valor Bruto de las compras.
 
-`Dc_Vdsc`: Variable que representa el Valor de la compra, aplicandole el Descuento.
+- `Dc_Vdsc`: Variable que representa el Valor de la compra, aplicandole el Descuento.
 
-`Dc_Ivav`: Variable que representa el Valor de la compra, añadiendole el IVA.
+- `Dc_Ivav`: Variable que representa el Valor de la compra, añadiendole el IVA.
 
-`Dc_Fn`: Variable que representa el Valor Final.
+- `Dc_Fn`: Variable que representa el Valor Final.
 
 >**EJERCICIO**
 >
@@ -148,11 +148,11 @@ Una vez que hemos culminado estos procesos, en la variable `Dc_ya`, vamos a proc
 
 Una vez que hemos realizado todos los procesos descritos, el programa prodece a imprimir los siguientes resultados:
 
-`Dc_ya`: Variable que almacena la diferencia entre el año actual y el año de nacimiento.
+- `Dc_ya`: Variable que almacena la diferencia entre el año actual y el año de nacimiento.
 
-`Dc_ma`: Varible que almecena la diferencia entre el mes actual y el mes de nacimiento.
+- `Dc_ma`: Varible que almecena la diferencia entre el mes actual y el mes de nacimiento.
 
-`Dc_da`: Variable que almacea la diferencia entre el día actual y el día de nacimiento.
+- `Dc_da`: Variable que almacea la diferencia entre el día actual y el día de nacimiento.
 
 >**EJERCICIO**
 >
@@ -180,7 +180,7 @@ Adicional a esto vamos a usar la función `if`que va a permitir que el proceso p
 
 Para complemetar nuestro programa con la función mencionada anteriormente, y para poder analizar la cantidad de monedas ingresadas por el usuario; en caso de que la moneda ingresada sea de un valor de 10 centavos `Dc_c1=Dc_c1+1`, vamos a usar un acumulador `(Dc_a1)` que va a almacenar unicamente la cantidad de monedas de 10 centavos ingresadas.
 
-En caso de que la condición anterior no se cumpla, usaremos un `}èlse{` el cual , si el valor de la moneda ingresada es de 25 centavos `Dc_c2=Dc_c2+1`, vamos a usar un acumulador `(Dc_a2)` que va a almacenar unicamente la cantidad de monedas de 25 centavos.
+En caso de que la condición anterior no se cumpla, usaremos un `}else{` el cual , si el valor de la moneda ingresada es de 25 centavos `Dc_c2=Dc_c2+1`, vamos a usar un acumulador `(Dc_a2)` que va a almacenar unicamente la cantidad de monedas de 25 centavos.
 
 También vamos a usar una variable `(Dc_c<Dc_n)` para almacenar la suma de la cantidad de todas las monedas ingresadas.
 
@@ -189,14 +189,14 @@ También vamos a usar una variable `(Dc_c<Dc_n)` para almacenar la suma de la ca
 
 Una vez que se realicen los procesos descritos antes, el programa va a imprimr los siguientes resultados:
 
-`Dc_c:` Esta variable va a almacenar la cantidad de monedas ingresadas.
-`Dc_a:` Esta variable va a almacenar la cantidad total en dinero contado.
+- `Dc_c:` Esta variable va a almacenar la cantidad de monedas ingresadas.
+- `Dc_a:` Esta variable va a almacenar la cantidad total en dinero contado.
 
-`Dc_c1:` Esta variable va a almacenar la cantidad de monedas de 10 centavos ingresadas.
-`Dc_a1:` Esta variable va a contar la cantidad de monedas de 10 centavos ingresadas.
+- `Dc_c1:` Esta variable va a almacenar la cantidad de monedas de 10 centavos ingresadas.
+- `Dc_a1:` Esta variable va a contar la cantidad de monedas de 10 centavos ingresadas.
 
-`Dc_c2:` Esta variable va a alamacenar la cantidad de monedas de 25 centavos ingresadas.
-`Dc_a2:` Esta variable va a contar la cantidad de monedas de 25 centavos ingresadas. 
+- `Dc_c2:` Esta variable va a alamacenar la cantidad de monedas de 25 centavos ingresadas.
+- `Dc_a2:` Esta variable va a contar la cantidad de monedas de 25 centavos ingresadas. 
 
 >**EJERCICIO**
 >
