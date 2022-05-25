@@ -26,6 +26,7 @@ int  main ()
 		Dc_c2=Dc_c2+ 1 ;
 		Dc_a2=Dc_a2+Dc_x;
 		}
+	} while (Dc_c<Dc_n);
 		
 cout<<endl<< " //========================================= ======= " <<endl;
 cout<< " //==> Nombre del programa: Contador de Monedas " <<endl;
@@ -35,7 +36,6 @@ cout<< " //==>Fecha de elaboración: 2022-04-29 " <<endl;
 cout<< " //==>Fecha ultima actualización: 2022-05-17 " <<endl;
 cout<< " //============================================ ===== " <<endl;
 
-} while (Dc_c<Dc_n);
 	cout<< " EL RESULTADO FUE: " <<endl;
 	cout<< " CANTIDAD DE MONEDAS INGRESADAS: " <<Dc_c<<endl;
 	cout<< " CANTIDAD TOTAL EN DINERO CONTADO: " <<Dc_a<<endl;
