@@ -208,9 +208,9 @@ Con simplemente dos pasos podemos descargar el repositorio en el cual podemos en
 
 1. **Clonar repositorio**
 
-**Acerca de clonar un repositorio:**  Puedes clonar un repositorio desde GitHub.com hacia tu computadora local para que sea más fácil fusionar conflictos, agregar o eliminar archivos, y subir confirmaciones más grandes. Cuando clonas un repositorio, lo copias desde GitHub.com hacia tu máquina local.
+- **Acerca de clonar un repositorio:**  Puedes clonar un repositorio desde GitHub.com hacia tu computadora local para que sea más fácil fusionar conflictos, agregar o eliminar archivos, y subir confirmaciones más grandes. Cuando clonas un repositorio, lo copias desde GitHub.com hacia tu máquina local.
 
-**Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando `git clone` seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
+- **Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando `git clone` seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
 > `git clone https://github.com/DannaCapurroMendoza/ACTIVIDAD-E2.git`
 
 Luego de haber clonado en tu equipo, se procede a usar el comando `git pull` para de esta manera poder descargar cualquier cambio que se haya podido realizar en dicho repositorio.
