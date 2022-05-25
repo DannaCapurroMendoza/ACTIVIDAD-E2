@@ -21,7 +21,7 @@
 El programa permite la comparación de dos numeros ingresados de forma manual por el usuario, y que permite determinar cuando estos numeros son iguales o cuando uno de ellos es mayor al otro.
 
 - **Funcionalidad:**
-En este programa usaremos una variable de tipo decimal conocida como: (`float`).
+En este programa usaremos una variable de tipo decimal conocida como: `(float)`.
 Este programa nos permite ingresar dos cantidades que deseamos comparar de las cuales van a estar almacenadas en `Dc_valor1` y `Dc_valor2` respectivamente.
 Una vez que esten ingresadas las variables, utilizaremos la función `if` que nos sirve para poder hacer una comparación lógica entre las cantidades o valores ingresados.
 
@@ -43,18 +43,18 @@ Este programa nos permite sumar una cierta o diversa cantidad de numeros que el 
 
 - **Funcionalidad:** 
 
-En este programa vamos a usar dos tipos de datos que son: los enteros (`int`), y los decimales (`float`). 
+En este programa vamos a usar dos tipos de datos que son: los enteros `(int)`, y los decimales `(float)`. 
 
-Vamos a utilizar, de igual manera, el uso de un contador (`Dc_c que va a estar declarado como un entero`) y el uso de un acumulador (`Dc_s que va a estar declarado como decimal`).
+Vamos a utilizar, de igual manera, el uso de un contador `(Dc_c que va a estar declarado como un entero)` y el uso de un acumulador `(Dc_s que va a estar declarado como decimal)`.
 
-El contador se va a ir incrementando de uno en uno, este en función del numero que ingrese el usuario (`Dc_n`).
+El contador se va a ir incrementando de uno en uno, este en función del numero que ingrese el usuario `(Dc_n)`.
 
-El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario (`Dc_x`).
+El acumulador va a ir almacenando la suma de las cantidades que ingrese el usuario `(Dc_x)`.
 
-Y para complementar todo este proceso, vamos a usar una estructura repetitiva `do-while`, que esta nos servirá para que el proceso anteriormente descrito, proceda a repetirce mientras se cumpla una condición (`Dc_c<Dc_n`).
+Y para complementar todo este proceso, vamos a usar una estructura repetitiva `do-while`, que esta nos servirá para que el proceso anteriormente descrito, proceda a repetirce mientras se cumpla una condición `(Dc_c<Dc_n)`.
 
 - **Salidas:**
-Una vez realizado todo este proceso, el programa va a imprimir el valor del contador (`Dc_n`) y el valor del acumulador (`Dc_s`).
+Una vez realizado todo este proceso, el programa va a imprimir el valor del contador `(Dc_n)` y el valor del acumulador `(Dc_s)`.
 
 
 >**EJERCICIO**
@@ -96,13 +96,13 @@ Posterior a esto, realizaremos los siguientes procesos:
 
 Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes valores:
 
-`Dc_A`: Variable que representa el Valor Bruto de las compras.
+- `Dc_A`: Variable que representa el Valor Bruto de las compras.
 
-`Dc_Vdsc`: Variable que representa el Valor de la compra, aplicandole el Descuento.
+- `Dc_Vdsc`: Variable que representa el Valor de la compra, aplicandole el Descuento.
 
-`Dc_Ivav`: Variable que representa el Valor de la compra, añadiendole el IVA.
+- `Dc_Ivav`: Variable que representa el Valor de la compra, añadiendole el IVA.
 
-`Dc_Fn`: Variable que representa el Valor Final.
+- `Dc_Fn`: Variable que representa el Valor Final.
 
 >**EJERCICIO**
 >
@@ -110,28 +110,107 @@ Una vez hecho todo este proceso, el programa nos va a imprimir los siguientes va
 
 ## **4. PROGRAMA PARA SABER LA EDAD DE UNA PERSONA**
 - **Descripción del problema que soluciona:**
-Este programa nos permite calcular la edad exacta de una persona, mediante el ingreso de su fecha de nacimiento del usuario ene el formato de (dd/mm/yy) y el ingreso de la fecha actual en el formato de "DIA - MES - AÑO" (dd/mm/yy).
-
+Este programa nos permite calcular la edad exacta de una persona, mediante el ingreso de su fecha de nacimiento del usuario ene el formato de `(dd/mm/yy)` y el ingreso de la fecha actual en el formato de "DIA - MES - AÑO" `(dd/mm/yy)`.
 
 - **Funcionlidad:**
+
+En el desarrollo de este programa, solo utilizaremos variables de tipo entero `(int)`.
+
+Para iniciar este programa, ingresaremos el valor de las variables que van a representar la fecha actual, bajo el formato día/mes/año `(Dc_dd, Dc_mm y Dc_aa respectivamente)`.
+
+Procedente a esto, ingresaremos  el valor de las variables que van a representar la fecha de nacimiento del usuario, bajo el formato día/mes/año `(Dc_dd1, Dc_mm1, Dc_aa1 respectivamente)`.
+
+Una vez que hemos ingresado esas variables, el programa procede a realizar dos operacions lógicas, mediante el uso de la función `if`; la cual la primera de ellas, va a estar compuesta por los diversos procesos:
+
+En caso de que el dia actual ingresado, sea menor al dia de nacimiento del usuario `(Dc_dd<Dc_dd1)`:
+
+`Dc_dd=Dc_dd+30`; Se sumaran 30 dias al día actual ingresado por el usuario.
+
+`Dc_mm=Dc_mm-1`; Se procede a restar un mes a la cantidad de meses que han sido ingresados por el usuario.
+
+`Dc_da=Dc_dd-Dc_dd1` Utilizamos la variable `Dc_da`, la cual va a almacenar la diferencia entre el día actual y el día de nacimiento.
+
+En caso de que si no se cumple esa condición `(Dc_dd<Dc_dd1)`, entonces simplemente se produce la diferencia entre el día actual, y el día de nacimiento, almancenado en la variable `Dc_da (Dc_da=Dc_dd-Dc_dd1)`.
+
+En caso procedente de que el mes actual ingresado sea menor al mes de nacimiento del usuario `(Dc_mm<Dc_mm1)`:
+
+`Dc_mm=Dc_mm+12`; Se Procede a la suma de 12 meses a la cantidad de meses actuales ingresados por el usuario.
+
+`Dc_aa=Dc_aa-1`; Se elimina un año a la cantidad de años actuales que han sido ingresados.
+
+`Dc_ma=Dc_mm-Dc_mm1`; Utilizamos la variable `Dc_ma`, la cuál va a almacenar la diferencia entre el mes actual y el mes de nacimiento.
+
+En caso de que si no se cumple esta condición `(Dc_mm<Dc_mm1)`, entonces simplemente se produce la diferencia entre el mes actual, y el mes de nacimiento, almacenado en la variable `Dc_ma (Dc_ma=Dc_mm-Dc_mm1;)`.
+
+Una vez que hemos culminado estos procesos, en la variable `Dc_ya`, vamos a proceder a almacenar la diferencia entre el año actual ingresado, y el año de nacimiento del usuario `(Dc_ya=Dc_aa-Dc_aa1)`.
+
 - **Salidas:**
+
+Una vez que hemos realizado todos los procesos descritos, el programa prodece a imprimir los siguientes resultados:
+
+- `Dc_ya`: Variable que almacena la diferencia entre el año actual y el año de nacimiento.
+
+- `Dc_ma`: Varible que almecena la diferencia entre el mes actual y el mes de nacimiento.
+
+- `Dc_da`: Variable que almacea la diferencia entre el día actual y el día de nacimiento.
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170143844-19f5827b-af02-4a73-8e03-8c5a8e7125c6.png)
+
+
 
 ## **5. PROGRAMA CLASIFICADOR Y CONTADOR DE MONEDAS**
 - **Descripción del problema que soluciona:**
-Este programa nos permite ingresar la cantidad de monedas que el usuario desee, las cuales estan repartidas en dos denominaciones (10, 25 centavos). Una vez ingresadas las monedas, este programa debe clasificarlas en cuantas monedas de cada tipo se han ingresado, y por último permite imprimir ese dato e imprimir el valor total del dinero ingresado.
-
+Este programa nos permite ingresar la cantidad de monedas que el usuario desee, las cuales estan repartidas en dos denominaciones `(10, 25 centavos)`. Una vez ingresadas las monedas, este programa debe clasificarlas en cuantas monedas de cada tipo se han ingresado, y por último permite imprimir ese dato e imprimir el valor total del dinero ingresado.
 
 - **Funcionalidad:**
+
+Este programa va a utilizar variables de tipo entero `(int)` y variables de tipo decimal `(float)`.
+De igual manera, vamos a requerir de un contador `(Dc_c)` y el uso de un acumulador `(Dc_a)`.  
+El contador va a ir incrementando de uno en uno en función de la cantidad de monedas que el usuario desea ingresar `(Dc_n)`.
+
+Para comenzar con la realización del programa, debemos de usar la variable `Dc_n` para que el usuario ingrese la cantidad de monedas a ingresar.
+
+Una vez que hemos usado la variable `Dc_n`, procedemos a usar la variable de tipo decimal `(Dc_x)` para ingresar el valor de la moneda `(10,25)`.
+
+Posterior a ello, vamos a usar la variable `Dc_x`, con la cual el usuario tiene que ingresar los valores de la moneda. 
+
+Adicional a esto vamos a usar la función `if`que va a permitir que el proceso pueda ingresar las monedas `if(Dc_x==10){`
+
+Para complemetar nuestro programa con la función mencionada anteriormente, y para poder analizar la cantidad de monedas ingresadas por el usuario; en caso de que la moneda ingresada sea de un valor de 10 centavos `Dc_c1=Dc_c1+1`, vamos a usar un acumulador `(Dc_a1)` que va a almacenar unicamente la cantidad de monedas de 10 centavos ingresadas.
+
+En caso de que la condición anterior no se cumpla, usaremos un `}else{` el cual , si el valor de la moneda ingresada es de 25 centavos `Dc_c2=Dc_c2+1`, vamos a usar un acumulador `(Dc_a2)` que va a almacenar unicamente la cantidad de monedas de 25 centavos.
+
+También vamos a usar una variable `(Dc_c<Dc_n)` para almacenar la suma de la cantidad de todas las monedas ingresadas.
+
+
 - **Salida:** 
+
+Una vez que se realicen los procesos descritos antes, el programa va a imprimr los siguientes resultados:
+
+- `Dc_c:` Esta variable va a almacenar la cantidad de monedas ingresadas.
+- `Dc_a:` Esta variable va a almacenar la cantidad total en dinero contado.
+
+- `Dc_c1:` Esta variable va a almacenar la cantidad de monedas de 10 centavos ingresadas.
+- `Dc_a1:` Esta variable va a contar la cantidad de monedas de 10 centavos ingresadas.
+
+- `Dc_c2:` Esta variable va a alamacenar la cantidad de monedas de 25 centavos ingresadas.
+- `Dc_a2:` Esta variable va a contar la cantidad de monedas de 25 centavos ingresadas. 
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170149523-cd65677d-bab1-4159-9af7-7bca58c433f3.png)
+
 
 ## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS**👩‍💻 
 Con simplemente dos pasos podemos descargar el repositorio en el cual podemos encontrar dichos programas descritos y explicados en este post. Para saber como descargar e instalar los programas se tiene que realizar los 2 siguientes procesos que a continuación seran explicados:
 
 1. **Clonar repositorio**
 
-**Acerca de clonar un repositorio:**  Puedes clonar un repositorio desde GitHub.com hacia tu computadora local para que sea más fácil fusionar conflictos, agregar o eliminar archivos, y subir confirmaciones más grandes. Cuando clonas un repositorio, lo copias desde GitHub.com hacia tu máquina local.
+- **Acerca de clonar un repositorio:**  Puedes clonar un repositorio desde GitHub.com hacia tu computadora local para que sea más fácil fusionar conflictos, agregar o eliminar archivos, y subir confirmaciones más grandes. Cuando clonas un repositorio, lo copias desde GitHub.com hacia tu máquina local.
 
-**Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando `git clone` seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
+- **Ahora bien como puedo clonar mi repositorio**, para esto debemos usar el comando `git clone` seguido de la dirección del repositorio en el cual se encuentra el trabajo o proyecto.
 > `git clone https://github.com/DannaCapurroMendoza/ACTIVIDAD-E2.git`
 
 Luego de haber clonado en tu equipo, se procede a usar el comando `git pull` para de esta manera poder descargar cualquier cambio que se haya podido realizar en dicho repositorio.
@@ -152,5 +231,5 @@ A continuación se muestra un ejemplo de como se compila:
 _**¡No puedo decir otra palabra más que “gracias por leer y llenarte de información importante en el mundo de la programación”!**_ 👩‍💻
 
 
-_******Capurro Mendoza Danna Sayenka******_ 
+_******Capurro Mendoza Danna Sayenka******_  
 
