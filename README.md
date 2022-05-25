@@ -162,11 +162,46 @@ Una vez que hemos realizado todos los procesos descritos, el programa prodece a 
 
 ## **5. PROGRAMA CLASIFICADOR Y CONTADOR DE MONEDAS**
 - **Descripción del problema que soluciona:**
-Este programa nos permite ingresar la cantidad de monedas que el usuario desee, las cuales estan repartidas en dos denominaciones (10, 25 centavos). Una vez ingresadas las monedas, este programa debe clasificarlas en cuantas monedas de cada tipo se han ingresado, y por último permite imprimir ese dato e imprimir el valor total del dinero ingresado.
-
+Este programa nos permite ingresar la cantidad de monedas que el usuario desee, las cuales estan repartidas en dos denominaciones `(10, 25 centavos)`. Una vez ingresadas las monedas, este programa debe clasificarlas en cuantas monedas de cada tipo se han ingresado, y por último permite imprimir ese dato e imprimir el valor total del dinero ingresado.
 
 - **Funcionalidad:**
+
+Este programa va a utilizar variables de tipo entero `(int)` y variables de tipo decimal `(float)`.
+De igual manera, vamos a requerir de un contador `(Dc_c)` y el uso de un acumulador `(Dc_a)`.  
+El contador va a ir incrementando de uno en uno en función de la cantidad de monedas que el usuario desea ingresar `(Dc_n)`.
+
+Para comenzar con la realización del programa, debemos de usar la variable `Dc_n` para que el usuario ingrese la cantidad de monedas a ingresar. Esta misma variable va a ser usada para determinar el tamaño del vector num, que vamos a declarar después.
+
+Una vez que hemos usado la variable jm_n, vamos a usar un vector de una dimensión, con el valor almacenado en la variable jm_n (num [jm_n]).
+
+Posterior a ello, vamos a usar la variable jm_i, con la cual el usuario tiene que ingresar los valores, con los cuales va a rellenar el vector declarado anteriormente.
+
+Adicional a esto, vamos a usar el buclue for, que va a permetir que el proceso anterior se repita hasta que se cumplan ciertas condiciones (for (int jm_i=0; jm_i<jm_n; jm_i++)).
+
+Complementando el programa, vamos a añadir la función if y else_if para poder analizar los tipos de monedas ingresadas por el usuario; en caso de que la moneda ingresada sea de un valor de 10 centavos(num [jm_i]==10), vamos a usar un acumulador (jm_sum1) que va a almacenar unicamente la cantidad de monedas de 10 centavos ingresadas.
+
+En caso de que la condición anterior no se cumpla, usaremos un else_if, en donde, si el valor de la moneda ingresada es de 25 centavos (num [jm_i]==25), vamos a usar un acumulador (jm_sum25) que va a almacenar unicamente la cantidad de monedas de 25 centavos; en caso de que no cumplan ninguna de las dos condiciones anteriores, usaremos un contador (jm_sum50) que va almacenar unicamente la cantidad de monedas de 50 centavos ingresadas.
+
+También, vamos a usar una variable (jm_sum) para almacenar la suma de todas las monedas ingresadas.
+
+
 - **Salida:** 
+
+Una vez que se realicen los procesos descritos antes, el programa va a imprimr los siguientes resultados:
+
+`Dc_c:` Esta variable va a almacenar la cantidad de monedas ingresadas.
+`Dc_a:` Esta variable va a almacenar la cantidad total en dinero contado.
+
+`Dc_c1:` Esta variable va a almacenar la cantidad de monedas de 10 centavos ingresadas.
+`Dc_a1:` Esta variable va a contar la cantidad de monedas de 10 centavos ingresadas.
+
+`Dc_c2:` Esta variable va a alamacenar la cantidad de monedas de 25 centavos ingresadas.
+`Dc_a2:` Esta variable va a contar la cantidad de monedas de 25 centavos ingresadas. 
+
+>**EJERCICIO**
+>
+>![image](https://user-images.githubusercontent.com/101121335/170149523-cd65677d-bab1-4159-9af7-7bca58c433f3.png)
+
 
 ## **CÓMO DESCARGAR E INSTALAR LOS PROGRAMAS**👩‍💻 
 Con simplemente dos pasos podemos descargar el repositorio en el cual podemos encontrar dichos programas descritos y explicados en este post. Para saber como descargar e instalar los programas se tiene que realizar los 2 siguientes procesos que a continuación seran explicados:
